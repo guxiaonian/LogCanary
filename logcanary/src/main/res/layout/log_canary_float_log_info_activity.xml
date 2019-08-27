@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/log_canary_filter"
+        style="@style/LogCanary.Input"
+        android:layout_height="26dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/log_canary_log_filter_background"
+        android:hint="@string/log_canary_filter"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <RadioGroup
+        android:id="@+id/log_canary_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/log_canary_verbose"
+            style="@style/LogCanary.Verbose"
+            android:text="@string/log_canary_info_verbose" />
+
+        <RadioButton
+            android:id="@+id/log_canary_debug"
+            style="@style/LogCanary.Debug"
+            android:text="@string/log_canary_info_debug" />
+
+        <RadioButton
+            android:id="@+id/log_canary_info"
+            style="@style/LogCanary.Info"
+            android:text="@string/log_canary_info_info" />
+
+        <RadioButton
+            android:id="@+id/log_canary_warn"
+            style="@style/LogCanary.Warn"
+            android:text="@string/log_canary_info_warn" />
+
+        <RadioButton
+            android:id="@+id/log_canary_error"
+            style="@style/LogCanary.Error"
+            android:text="@string/log_canary_info_error" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/log_canary_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

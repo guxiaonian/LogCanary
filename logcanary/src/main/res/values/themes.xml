@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="log_canary_LogCanary.Base" parent="android:Theme" />
+
+    <style name="LogCanary" />
+
+    <style name="LogCanary.Verbose">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/log_canary_background_verbose</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/log_canary_radio_button_background</item>
+    </style>
+
+    <style name="LogCanary.Debug">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/log_canary_background_debug</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/log_canary_radio_button_background</item>
+    </style>
+
+    <style name="LogCanary.Info">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textColor">@color/log_canary_background_info</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/log_canary_radio_button_background</item>
+    </style>
+
+    <style name="LogCanary.Warn">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textColor">@color/log_canary_background_warn</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/log_canary_radio_button_background</item>
+    </style>
+
+    <style name="LogCanary.Error">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textColor">@color/log_canary_background_error</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/log_canary_radio_button_background</item>
+    </style>
+
+    <style name="LogCanary.Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/log_canary_color_333333</item>
+        <item name="android:textColorHint">@color/log_canary_color_CCCCCC</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:textCursorDrawable">@drawable/log_canary_input_cursor</item>
+    </style>
+</resources>
