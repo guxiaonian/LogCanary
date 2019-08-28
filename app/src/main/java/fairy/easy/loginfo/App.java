@@ -18,7 +18,7 @@ public class App extends Application {
             return;
         }
         LeakCanary.install(this);
-        LogCanary.install(this,5);
+        LogCanary.install(this);
 
 
     }

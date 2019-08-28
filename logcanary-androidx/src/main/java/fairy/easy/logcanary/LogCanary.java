@@ -7,6 +7,10 @@ import fairy.easy.logcanary.loginfo.LogCanaryFactory;
 
 public class LogCanary {
 
+    private LogCanary() {
+        throw new AssertionError();
+    }
+
     private static int maxNum;
 
     public static void install(Context context) {
