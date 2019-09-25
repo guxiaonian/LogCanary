@@ -15,12 +15,14 @@
 
 # 效果展示
 
-![log1_logo](./img/log.png)
+![log1_logo](./img/img1.jpg)
+![log2_logo](./img/img2.jpg)
 
 # 依赖
 
 ```gradle
-debugImplementation  'fairy.easy.logcanary:logcanary:{latestVersion}'releaseImplementation  'fairy.easy.logcanary:logcanary-no-op:{latestVersion}'
+debugImplementation  'fairy.easy.logcanary:logcanary:{latestVersion}'
+releaseImplementation  'fairy.easy.logcanary:logcanary-no-op:{latestVersion}'
 //androidX使用
 //debugImplementation  'fairy.easy.logcanary:logcanary-androidx:{latestVersion}'
 
